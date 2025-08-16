@@ -4,7 +4,8 @@
 
 Originally created by [mohux](https://github.com/mohux). This fork is maintained and published as **@oliverlooney/react-brackets**.
 
-[![NPM](https://img.shields.io/npm/v/react-brackets.svg)](https://www.npmjs.com/package/@oliverlooney/react-brackets) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm](https://img.shields.io/npm/v/%40oliverlooney%2Freact-brackets.svg?label=npm)](https://www.npmjs.com/package/@oliverlooney/react-brackets)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ![react-brackets](https://github.com/mohux/react-brackets/blob/master/images/web.gif?raw=true 'react-brackets')
 ![react-brackets](https://github.com/mohux/react-brackets/blob/master/images/mobile.gif?raw=true 'react-brackets')
@@ -15,7 +16,7 @@ via npm
 
 ```bash
 
-npm install --save react-brackets
+npm i @oliverlooney/react-brackets
 
 ```
 
@@ -23,7 +24,7 @@ via yarn
 
 ```bash
 
-yarn add --save react-brackets
+yarn add --save @oliverlooney/react-brackets
 
 ```
 
@@ -268,7 +269,13 @@ yarn start
 
 ## License
 
+MIT © [mohammadou1](https://github.com/mohammadou1)
+
 Originally created by [mohux](https://github.com/mohux). This fork is maintained and published as **@oliverlooney/react-brackets**.
 
+### Migration from react-brackets
 
-MIT © [mohammadou1](https://github.com/mohammadou1)
+1) Uninstall: `npm rm react-brackets`
+2) Install:  `npm i @oliverlooney/react-brackets`
+3) Imports stay the same for this library (package name change only).
+
