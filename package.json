@@ -1,10 +1,13 @@
 {
-  "name": "react-brackets",
-  "version": "0.4.7",
+  "name": "@oliverlooney/react-brackets",
+  "version": "0.4.10",
   "description": "React component to render dynamic bracket UI",
   "author": "Oliver-Looney",
   "license": "MIT",
-  "repository": "Oliver-Looney/react-brackets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliver-Looney/react-brackets.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -25,7 +28,7 @@
   },
   "peerDependencies": {
     "react": "^18.0.0",
-    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views": "npm:react-swipeable-views-react-18-fix@^0.14.1",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
@@ -72,7 +75,7 @@
     "react-tournaments"
   ],
   "dependencies": {
-    "styled-components": "^5.1.1",
-    "react-swipeable-views": "^0.13.9"
+    "react-swipeable-views": "npm:react-swipeable-views-react-18-fix@^0.14.1",
+    "styled-components": "^5.1.1"
   }
 }
