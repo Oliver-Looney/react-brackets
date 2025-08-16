@@ -52,11 +52,9 @@ const SingleElimination = ({
   ));
 
   if (isResponsive) {
-    // Since SwipeableViewsProps have an issue that it uses ref inside of it, We need to remove ref from the object
-    const { ref, ...rest } = swipeableProps;
     return (
       <Bracket className={bracketClassName} dir={rtl ? 'rtl' : 'ltr'} mobileBreakpoint={mobileBreakpoint}>
-        <SwipeableViews style={{ minHeight: '500px' }} axis={rtl ? 'x-reverse' : 'x'} {...rest}>
+        <SwipeableViews style={{ minHeight: '500px' }} axis={rtl ? 'x-reverse' : 'x'} {...swipeableProps}>
           {data}
         </SwipeableViews>
       </Bracket>

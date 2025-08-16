@@ -2,6 +2,8 @@
 
 > Dynamic bracket component, usable for brackets such as single elimination and double elimination
 
+Originally created by [mohux](https://github.com/mohux). This fork is maintained and published as **@oliverlooney/react-brackets**.
+
 [![NPM](https://img.shields.io/npm/v/react-brackets.svg)](https://www.npmjs.com/package/react-brackets) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ![react-brackets](https://github.com/mohux/react-brackets/blob/master/images/web.gif?raw=true 'react-brackets')
@@ -230,5 +232,8 @@ yarn start
 ```
 
 ## License
+
+Originally created by [mohux](https://github.com/mohux). This fork is maintained and published as **@oliverlooney/react-brackets**.
+
 
 MIT © [mohammadou1](https://github.com/mohammadou1)
